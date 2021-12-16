@@ -3,11 +3,13 @@
         <h3 class="title">my <br><span>Portfolio</span></h3>
     </a>
     <ul class="menu">
-        <li><a routerLink="/">Home</a></li>
-        <li><a routerLink="/skills">Skills</a></li>
-        <li><a routerLink="/about">About me</a></li>
-        <li><a routerLink="/services">My Services</a></li>
-        <li><a routerLink="/contact">Contact me</a></li>
+        <li><a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/">Home</a></li>
+        <li><a routerLinkActive="active" routerLink="/about" >About</a></li>
+        <li><a routerLinkActive="active" routerLink="/skills" >Skills</a></li>
+        <li><a routerLinkActive="active" routerLink="/projects" >Projects</a></li>
+        <li><a routerLinkActive="active" routerLink="/experiences" >Experiences</a></li>
+        <li><a routerLinkActive="active" routerLink="/services" >Services</a></li>
+        <li><a routerLinkActive="active"routerLink="/contact" >Contact</a></li>
     </ul>
-    <a href="" class="hire-me">Hire me</a>
+    <a routerLink="/admin"><img src="../../../assets/images/admin.png" alt=""></a>
 </nav>

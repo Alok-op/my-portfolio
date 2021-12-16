@@ -1,0 +1,40 @@
+#employer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+    position: relative;
+}
+.employer-details-heading {
+    color: #ffffff;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 90%;
+    background-color: #141516;
+    padding: 10px;
+    display: flex;
+}
+.employer-details-container {
+    width: 80%;
+    margin-top: 40px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+} 
+th {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #2065cc;
+}
+td {
+    padding: 12px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #141516;
+    border-bottom: 1px solid #222121;
+}

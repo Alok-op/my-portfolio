@@ -10,6 +10,11 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ServicesComponent } from './components/services/services.component';
+import { ExperiencesComponent } from './components/experiences/experiences.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { SkillComponent } from './components/skills/skill/skill.component';
+import { EmployerDetailsComponent } from './components/employer-details/employer-details.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { ServicesComponent } from './components/services/services.component';
     AboutComponent,
     ContactComponent,
     SkillsComponent,
-    ServicesComponent
+    ServicesComponent,
+    ExperiencesComponent,
+    ProjectsComponent,
+    AdminComponent,
+    SkillComponent,
+    EmployerDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -8,11 +8,25 @@
     font-weight: 600;
     text-shadow: 2px 2px 30px rgba(0, 0, 0, 0, .01);
 }
+.main-text h3 {
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0, .01);
+}
+.main-text h5 {
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0, .01);
+    margin-bottom: -25px;
+}
 
 .main-btns {
     display: flex;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .main-btns a {
