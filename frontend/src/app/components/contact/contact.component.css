@@ -1,0 +1,61 @@
+#get-in-touch {
+    width: 90%;
+    height: 90px;
+    background-color: #15181d;
+    display: flex;
+    margin: 0 auto 20px;
+    padding: 15px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+#get-in-touch span {
+    color: #e4e4e4;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+#get-in-touch a {
+    color: #ffffff;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #2788e2 20%, #3b4eb8);
+}
+#contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    height: 50px;
+    margin: 5px 0px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #373a412d;
+    color: #ffffff;
+    border-radius: 5px;
+}
+#contact form textarea {
+    height: 90px;
+}
+#contact form input[type='submit'] {
+    height: 45px;
+    background: linear-gradient(90deg, #2065cc 20%, #3b58b8);
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.navigation {
+    /* position: fixed; */
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    background-image: linear-gradient(180deg, rgb(17, 17, 17) 15%, transparent);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.title {
+    color: white;
+}
+
+.logo span {
+    font-size: 26px;
+}
+
+.menu li a {
+    color: #ffffffcc;
+}
+
+.hire-me {
+    color: #46a0f5;
+}
+
+/* .menu li a:hover {
+    color: #46a0f5;
+    font-weight: 500;
+    transition: all ease 0.5s;
+} */
+.active {
+    color: #46a0f5 !important;
+    font-weight: 500;
+    transition: all ease 0.5s;
+}
+
+.hire-me:hover {
+    color: #1a82e2;
+    transition: all ease 0.5s;
+}
+
+img {
+    width: 60px;
+    border-radius: 50%;
+}
